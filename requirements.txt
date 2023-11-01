@@ -1,4 +1,4 @@
 langchain
-openai
 streamlit
 python-dotenv
+cohere
