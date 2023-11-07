@@ -5,7 +5,6 @@ import cohere
 
 from dotenv import load_dotenv, find_dotenv
 _ = load_dotenv(find_dotenv()) 
-cohere.api_key = os.environ['COHERE_API_KEY']
 
 from langchain.llms import Cohere
 from langchain.prompts import PromptTemplate
